@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+h1{
+    font-family: sans-serif;
+    font-size: 2.5em;
+    font-weight: 900;
+    text-align: center;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+.caixa{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(250, 215, 215);
+    border: 3px solid brown;
+    border-radius: 3px;
+    outline: 10px;
+    margin: auto;
+    padding: 20px;
+    outline-style: double;
+    outline-color: brown;
+}
+
+
+.caixa:hover{
+    background-color: rgb(230, 145, 145);
+}
+a{
+    color: brown;
+    text-decoration: none;
+    font-weight: 900;
+}
+a:hover{
+    color: rgb(108, 20, 20);
+    text-decoration: underline;
+}
+a:visited{
+    color: rgb(66, 11, 11);
+}
+a:active{
+    color: rgb(165, 106, 42);
+}

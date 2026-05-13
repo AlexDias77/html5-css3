@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+
+.image-container{
+    position: absolute;
+    display: inline-block;
+}
+.sob{
+    position: relative;
+}
