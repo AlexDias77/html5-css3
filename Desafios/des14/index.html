@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgb(255, 251, 239);
+        }
+        h1{
+            color: rgb(153, 132, 109);
+        }
+        .container{
+            overflow-x: auto;
+        }
+        table{
+            border-spacing: 0;
+            width: 400px;
+            background-color: white;
+            position: relative;
+            border: 1px solid;
+        }
+        caption{
+            background-color: lightgray;
+            color: rgb(100, 100, 100);
+            font-weight: 600;
+            padding: 5px;
+        }
+        .maior{
+            position: sticky;
+            top: 0px;
+            background-color: gray;
+        }
+        .menor{
+            position: sticky;
+            top: 30.2px;
+            background-color: gray;
+            border-top: 1px solid black;
+        }
+        thead, .destaque{
+            background-color: gray;
+            color: white;
+        }
+        tbody > tr > th{
+            color: rgb(59, 59, 59);
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .deslocados{
+            text-align: left;
+        }
+        .num{
+            text-align: center;
+        }
+    </style>
+    <title>Desafio 14 - Modulo 3</title>
+</head>
+<body>
+    <h1>Desafio das tabelas</h1>
+    <div id="container">
+        <table>
+            <caption>Notas do aluno</caption>
+            <thead>
+                <tr>
+                    <th class="maior" scope="col" rowspan="2">Área</th>
+                    <th class="maior" scope="col" rowspan="2">Disciplinas</th>
+                    <th class="maior" scope="colgroup" colspan="2">Notas</th>
+                    <th class="maior" scope="col" rowspan="2">Média</th>
+                </tr>
+                </tr>
+                <tr>
+                    <th class="menor" scope="col">Nota 1</th>
+                    <th class="menor" scope="col">Nota 2</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="rowgroup" rowspan="4">Exatas</th>
+                    <td class="deslocados">Matemática</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                </tr>
+                <tr>
+                    <td class="deslocados">Física</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                </tr>
+                <tr>
+                    <td class="deslocados">Química</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                </tr>
+                <tr>
+                    <td class="deslocados">Biologia</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="destaque deslocados" colspan="4">Medias de Exatas</th>
+                    <td class="destaque num" >0.0</td>
+                </tr>
+                <tr>
+                    <th scope="rowgroup" rowspan="2">Humanas</th>
+                    <td>História</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                </tr>
+                <tr>
+                    <td class="deslocados">Geografia</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="destaque deslocados" colspan="4">Média de Humanas</th>
+                    <td class="destaque num" >0.0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quis, facilis fugiat mollitia similique commodi nisi impedit tempora ratione, quasi perferendis? Cumque nihil porro sed omnis, explicabo voluptatem fuga neque!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quis, facilis fugiat mollitia similique commodi nisi impedit tempora ratione, quasi perferendis? Cumque nihil porro sed omnis, explicabo voluptatem fuga neque!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quis, facilis fugiat mollitia similique commodi nisi impedit tempora ratione, quasi perferendis? Cumque nihil porro sed omnis, explicabo voluptatem fuga neque!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quis, facilis fugiat mollitia similique commodi nisi impedit tempora ratione, quasi perferendis? Cumque nihil porro sed omnis, explicabo voluptatem fuga neque!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quis, facilis fugiat mollitia similique commodi nisi impedit tempora ratione, quasi perferendis? Cumque nihil porro sed omnis, explicabo voluptatem fuga neque!</p>
+</body>
+</html>
